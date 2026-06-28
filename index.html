@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>Excite Bike</title>
+<title>TURBO RIDER</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body {
@@ -110,7 +110,7 @@ html, body {
 #btn-b { width: 52px; height: 52px; background: #b86000; }
 #btn-a { width: 58px; height: 58px; background: #b00000; }
 </style>
-    <meta property="og:title" content="Excite Bike">
+    <meta property="og:title" content="TURBO RIDER">
     <meta property="og:description" content="スマホ・PCのブラウザで遊べる無料ゲームです。インストール不要！">
     <meta property="og:url" content="https://titan11111.github.io/178-excite-bike/">
     <meta property="og:type" content="website">
@@ -544,18 +544,18 @@ function drawTitle(W,H) {
   ctx.fillStyle = '#000';
   ctx.font = `bold ${Math.floor(W/7)}px monospace`;
   ctx.textAlign='center';
-  ctx.fillText('EXCITE', W/2+3, H*0.32+3);
-  ctx.fillText('BIKE',   W/2+3, H*0.46+3);
+  ctx.fillText('TURBO', W/2+3, H*0.32+3);
+  ctx.fillText('RIDER',   W/2+3, H*0.46+3);
   // Title
   ctx.fillStyle = C.YELLOW;
-  ctx.fillText('EXCITE', W/2, H*0.32);
+  ctx.fillText('TURBO', W/2, H*0.32);
   ctx.fillStyle = C.WHITE;
-  ctx.fillText('BIKE', W/2, H*0.46);
+  ctx.fillText('RIDER', W/2, H*0.46);
 
   if (Math.floor(performance.now()/500)%2===0)
     text('PRESS START', W/2, H*0.68, C.PINK, Math.floor(W/22), 'center');
 
-  text('© 1984 NINTENDO / FAN REMAKE', W/2, H*0.88, C.GRAY, Math.floor(W/38), 'center');
+  text('© 2024 TITANS STUDIO', W/2, H*0.88, C.GRAY, Math.floor(W/38), 'center');
 }
 
 function groundY(H) { return H * 0.66; }
